@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightGreen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Food"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="@color/darkGreen"/>
+
+        <EditText
+            android:id="@+id/etFoodName"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Food Name"
+            android:inputType="text"
+            android:layout_marginTop="25dp"/>
+
+        <EditText
+            android:id="@+id/etQuantity"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Quantity"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="12dp"/>
+
+        <EditText
+            android:id="@+id/etCategory"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Category"
+            android:inputType="text"
+            android:layout_marginTop="12dp"/>
+
+        <Button
+            android:id="@+id/btnExpiryDate"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Select Expiry Date"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/btnSaveFood"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="SAVE FOOD ITEM"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
